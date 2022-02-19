@@ -1,5 +1,17 @@
-.App {
+.body
+{
+  background-color: #2a3133;
+  padding: 5%;
+  margin: auto;
   text-align: center;
+  font-family: Arial, Helvetica, sans-serif
+}
+
+h1
+{
+  padding: 50px;
+  color: #61dafb;
+
 }
 
 .App-logo {
