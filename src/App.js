@@ -42,17 +42,17 @@ function App() {
   }
 
   return (
+
     <>
-    <div className='body'>
-      <img src='./logo192.png'/>
-      <TodoList todos = {todos} toggleTodo={toggleTodo} />
+      <img src='./logo192.png' alt="reactlogo"/>
       <h1>Things to do:</h1>
+      <div className='TodoList'><TodoList todos = {todos} toggleTodo={toggleTodo} /></div>
       <input ref={todoNameRef} type="text"/>
       <button onClick={handleAddTodo}>Add Todo</button>
       <button onClick={handleClearTodo}>Clear</button>
-      <div>{todos.filter(todo => !todo.complete).length} left to do</div>
-      </div>
-    </>
+      <div className='leftTodo'>{todos.filter(todo => !todo.complete).length} left to do</div>
+      </>
+  
   )
 }
 
