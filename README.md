@@ -7,7 +7,7 @@ Link to live working version: https://learning-react-website.vercel.app/
 **Adding a todo to list**
 
 1. Click on text box
-2. Type your to do
+2. Type your todo
 3. Click the "Add Todo" button
 4. Done!
 
